@@ -1,64 +1,30 @@
 <!DOCTYPE html>
-
 <html>
-
  <head>
-
- <title>我的第一个blog网页</title>
-
+ <title>我的网页</title>
  <meta charset="utf-8">
-
  <style type="text/css">
-
- div{text-align: center}
-
- h2{background: #66D3FF;padding: 30px;color: #F80E12}
-
+ div{
+     text-align: center;
+ }
  </style>
-
+ <script>
+     function x(){
+         var password=prompt("请输入密码：");
+         while(password!="123"){
+             if(password=="取消")
+                break;
+            alert("错误，请重新输入!");
+            password=prompt("请输入密码：");
+         }
+     }
+ </script>
  </head>
-
- <body bgcolor="#E6E6FA" leftmargin="30px">
-
- <h2 align="center" >我的第一个blog网页</h2>
-
- <hr size="2" color="red" width="100%"/>
-
- <h3 align="center" >麻辣豆腐</h3>
-
- <img src="0d8b5dc32b84444fbcedc672fef0aec4.JPEG" width="250px" height="480px" align="right" >
-
- <img src="20210309161529302459927210667631.jpg" align="right" width="320px" height="320px">
-
- <h4>制作方法：</h4>
-
- <p >
-
- 一、一块豆腐备用<br/>
-
- 二、淀粉加水调制成水淀粉。<br/>
-
- 三、香辣肉丝提前炒好待用。<br/>
-
- 四、葱蒜和红辣椒准备就绪。<br/>
-
- 五、豆腐切大丁装盘。<br/>
-
- 六、葱蒜红辣椒改刀装盘。<br/>
-
- 七、锅中入油烧热倒入葱蒜红辣椒爆香。<br/>
-
- 八、加入香辣肉丝，水淀粉和酱油炒至起糊。<br/>
-
- 九、放入豆腐稍微炒匀，不能动作太大，豆腐易碎。<br/>
-
- 十、豆腐入味后撒入葱花。<br/>
-
- </p>
-
- <hr size="2" color="red" width="100%"/>
-
- 
+ <body >
+     <div>
+     <input type="button" onclick="x()" value="点这里输入密码"/>
+    </div>
+    
 
 </body>
 
