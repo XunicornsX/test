@@ -12,11 +12,12 @@
      function x(){
          var password=prompt("请输入密码：");
          while(password!="123"){
-             if(password=="取消")
-                break;
             alert("错误，请重新输入!");
             password=prompt("请输入密码：");
+            
          }
+         if(password=="123")
+         document.location='http://www.baidu.com';
      }
  </script>
  </head>
