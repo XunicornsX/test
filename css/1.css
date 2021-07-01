@@ -1,0 +1,64 @@
+li{list-style:none;}
+h1{font-size:16px;font-weight:500;color: rgb(49, 172, 151);}
+h2{font-size:14px;font-weight:500;}
+h3{font-size:14px;font-weight:500;}
+h4,h5,h6{font-size:100%;}
+h6{font-weight:normal;}
+.clear{clear:both;}
+a{text-decoration:none;cursor:pointer;outline:none;}
+a:hover{text-decoration:underline;}
+body{font-size:12px;font-family:Microsoft YaHei,Arial, Helvetica, sans-serif;background:#e6e6fa;color:#6e6e6e;position:relative;}
+.header{width:100%;height:76px;z-index:1000;}
+.nav_area{height:76px;margin:0 auto;width:1200px;position:relative;}
+.nav{float:right;width:720px;}
+.nav li{float:left;width:16%;text-align:center;font-size:15px;position:relative;z-index:1000;line-height: 76px;}
+.nav li a{color:#484848;display:inline-block;font-weight:600;position:relative;}
+.nav li  a:hover {text-decoration:none;color:#149161;}
+.floor{margin:70px auto;width:1200px;}
+.soft_area{width:604px;float:left;}
+.soft_list{position:relative;float:left;width:600px;height:195px;}
+.market{margin-top:10px;}
+h2{font-size:22px;}
+.soft_list a{display:block;padding-left:130px;padding-top:25px;position:relative;height:75px;width:390px;}
+.soft_list a,.soft_list a:hover,.soft_list a:visited{color:#4d4d4d;text-decoration: none;}
+.soft_list a>img{position:absolute;left:0;top:0;width: 99px;height: 99px;}
+.soft_list a .btn{
+	width:95px;height:30px;display:block;position:absolute;right:0;bottom:20px;
+	color:#fff;background: #ffb733;
+    font-size: 14px;line-height: 30px;text-align: center;border-radius: 15px;
+}
+.soft_list .intro{color:#727272;line-height:1.5;width:400px;padding-top:30px;font-size:14px;font-family:鏂规鍏颁涵绾ら粦绠€浣�;}
+.soft_list .qr{width: 90px;height: 90px;
+    position: absolute;
+    right: 80px;
+    bottom: 0;}
+    .div1{
+        float: left;
+        text-align: center;
+        width: 1300px;
+        height: 400px; 
+        position: relative;
+        animation: example 8s  infinite;
+        margin: 0;
+        }
+.div2{   width: 600px;
+            height: 400px;
+            text-align: center;
+            margin: auto;
+            overflow: hidden; 
+        }
+        @keyframes example{
+        0%{   left: 0px;}
+        25%{  left: 0px; }
+        50%{ left: -650px; }
+        75%{  left: -650px;}
+        100%{  transform: translateX(0px);}
+    }
+.q{width: 600px;
+height: 400px;}
+.ss{
+    float: left;
+    width: 20px;
+    height: 20px;
+
+}

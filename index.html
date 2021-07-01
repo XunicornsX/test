@@ -1,32 +1,57 @@
 <!DOCTYPE html>
 <html>
- <head>
- <title>我的网页</title>
- <meta charset="utf-8">
- <style type="text/css">
- div{
-     text-align: center;
- }
- </style>
- <script>
-     function x(){
-         var password=prompt("请输入密码：");
-         while(password!="123"){
-            alert("错误，请重新输入!");
-            password=prompt("请输入密码：");
-            
-         }
-         if(password=="123")
-         document.location='http://www.baidu.com';
-     }
- </script>
- </head>
- <body >
-     <div>
-     <input type="button" onclick="x()" value="点这里输入密码"/>
+<head>
+	<title>软件商店</title>
+	<link rel="stylesheet" href="css/1.css" />
+	<script type="text/javascript" src="js/1.js"></script>
+</head>
+<body>
+    <img src="img/store.png" alt="" class="ss">
+    <h1>软件商店</h1>
+    <div class="header">
+		<div class="nav_area">
+			<ul class="nav">
+				<li class="now_nav"><a>首页</a></li>
+				<li><a href="https://im.qq.com/index" target="_self">QQ简介</a></li>
+				<li><a href="https://weixin.qq.com/" target="_self">微信简介</a></li>
+				<div class="clear"></div>
+			</ul>
+			<div class="clear"></div>
+		</div>
+	</div>
+    <div class="div2">
+        <div class="div1">
+            <a href="https://im.qq.com/index"><img src="img/1.png" alt="" class="q"></a>
+           <a href="https://weixin.qq.com/"> <img src="img/2.png" alt="" class="q"></a>
+        </div>
     </div>
-    
-
+		<div class="floor w830">
+			<div class="soft_list">
+				<a href="https://34a9af5035b79f336dc5a55f406a289f.dlied1.cdntips.net/dlied1.qq.com/qqweb/PCQQ/PCQQ_EXE/PCQQ2021.exe?mkey=60d80453def3ea60&f=5845&cip=222.243.204.149&proto=https&access_type=">
+					<img src="img/qq.png" />
+					<h2>QQ</h2>
+					<h3>乐在沟通</h3>
+					<input class="btn" onclick="message();" value="点击下载">
+				</a>
+				<div class="intro">腾讯推出的即时通讯工具。支持在线聊天、视频电话、点对点断点续传文件、共享文件、网络硬盘、自定义面板、QQ邮箱等多种功能。免费的通讯平台，给您带来更多沟通乐趣。</div>
+				<div class="line"></div>
+			</div>
+			<div class="soft_list right">
+				<a href="https://dldir1.qq.com/weixin/Windows/WeChatSetup.exe">
+					<img src="img/wechat.png" />
+					<h2>微信</h2>
+					<h3>让你我更亲近</h3>
+					<input class="btn" onclick="message2();" value="点击下载">
+				</a>
+				<div class="intro">微信，一款跨平台的通讯工具。支持单人、多人参与。能够通过网络给好友发送文字消息、表情和图片，还可以传送文件，与朋友视频聊天，让你的沟通更方便。并提供有多种语言界面。</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<footer align="center">
+			<a href="https://im.qq.com/index">QQ官网</a> 
+			<a href="https://weixin.qq.com/">微信官网</a>
+			<br>
+            Copyright © 2021 软件2001 22
+        </footer>
 </body>
-
 </html>
