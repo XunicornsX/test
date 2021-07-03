@@ -1,7 +1,10 @@
 li{list-style:none;}
-h1{font-size:16px;font-weight:500;color: rgb(49, 172, 151);}
+.qqq{
+    color:#0ec780;
+}
+h1{font-size:16px;font-weight:500;color: rgb(49, 172, 151);float: left;}
 h2{font-size:14px;font-weight:500;}
-h3{font-size:14px;font-weight:500;}
+h3{font-size:14px;font-weight:500;float: right;}
 h4,h5,h6{font-size:100%;}
 h6{font-weight:normal;}
 .clear{clear:both;}
@@ -27,7 +30,7 @@ h2{font-size:22px;}
 	color:#fff;background: #ffb733;
     font-size: 14px;line-height: 30px;text-align: center;border-radius: 15px;
 }
-.soft_list .intro{color:#727272;line-height:1.5;width:400px;padding-top:30px;font-size:14px;font-family:鏂规鍏颁涵绾ら粦绠€浣�;}
+.soft_list .intro{color:#727272;line-height:1.5;width:400px;padding-top:30px;font-size:14px;}
 .soft_list .qr{width: 90px;height: 90px;
     position: absolute;
     right: 80px;
